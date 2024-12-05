@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-/* Container Styles */
+
 .container {
   padding: 20px;
   max-width: 600px;
@@ -17,14 +17,14 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Header */
+
 .header {
   margin-bottom: 20px;
   font-size: 24px;
   color: #333;
 }
 
-/* Contact Button List */
+
 .contact-list {
   display: flex;
   justify-content: center;
@@ -53,7 +53,7 @@ body {
   color: white;
 }
 
-/* Chat Box */
+
 .chat-box {
   display: flex;
   flex-direction: column;
