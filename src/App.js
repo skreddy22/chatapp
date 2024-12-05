@@ -19,8 +19,7 @@ export default function App() {
   return (
     <div className="container">
       <h1 className="header">Chat App</h1>
-
-      {/* Contact buttons */}
+    
       <div className="contact-list">
         {contacts.map((i) => (
           <button
@@ -35,7 +34,6 @@ export default function App() {
         ))}
       </div>
 
-      {/* Chat input */}
       <div className="chat-box">
         <input
           type="text"
