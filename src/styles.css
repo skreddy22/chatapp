@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container Styles */
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+.header {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Contact Button List */
+.contact-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.contact-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #f0f0f0;
+  transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #dcdcdc;
+}
+
+.contact-button.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Chat Box */
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.chat-box input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-box button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.chat-box button:hover {
+  background-color: #0056b3;
+}
